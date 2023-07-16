@@ -57,7 +57,7 @@ namespace PRG_Assignment_LAB06.Student
                 string userName = textBoxStudentUserName.Text;
                 string studentID = textBoxStudentID.Text;
                 Student student = new Student(userName, studentID);
-                Student.userInfo.Add("User 01", student);
+                Student.userInfo.Add("User", student);
                 Question1 question1 = new Question1();
                 this.Hide();
                 question1.Show();
