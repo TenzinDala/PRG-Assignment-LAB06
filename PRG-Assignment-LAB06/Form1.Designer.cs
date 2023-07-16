@@ -40,7 +40,7 @@
             this.lblStudent.AutoSize = true;
             this.lblStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblStudent.Location = new System.Drawing.Point(247, 139);
+            this.lblStudent.Location = new System.Drawing.Point(251, 143);
             this.lblStudent.Name = "lblStudent";
             this.lblStudent.Size = new System.Drawing.Size(193, 33);
             this.lblStudent.TabIndex = 0;
@@ -51,7 +51,7 @@
             this.lblTeacher.AutoSize = true;
             this.lblTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeacher.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTeacher.Location = new System.Drawing.Point(247, 273);
+            this.lblTeacher.Location = new System.Drawing.Point(251, 263);
             this.lblTeacher.Name = "lblTeacher";
             this.lblTeacher.Size = new System.Drawing.Size(201, 33);
             this.lblTeacher.TabIndex = 1;
@@ -61,23 +61,25 @@
             // 
             this.btnStudentLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnStudentLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStudentLogin.Location = new System.Drawing.Point(292, 193);
+            this.btnStudentLogin.Location = new System.Drawing.Point(296, 197);
             this.btnStudentLogin.Name = "btnStudentLogin";
             this.btnStudentLogin.Size = new System.Drawing.Size(110, 48);
             this.btnStudentLogin.TabIndex = 2;
             this.btnStudentLogin.Text = "Login";
             this.btnStudentLogin.UseVisualStyleBackColor = false;
+            this.btnStudentLogin.Click += new System.EventHandler(this.btnStudentLogin_Click);
             // 
             // btnTeacherLogin
             // 
             this.btnTeacherLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnTeacherLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTeacherLogin.Location = new System.Drawing.Point(292, 322);
+            this.btnTeacherLogin.Location = new System.Drawing.Point(296, 326);
             this.btnTeacherLogin.Name = "btnTeacherLogin";
             this.btnTeacherLogin.Size = new System.Drawing.Size(110, 51);
             this.btnTeacherLogin.TabIndex = 3;
             this.btnTeacherLogin.Text = "Login";
             this.btnTeacherLogin.UseVisualStyleBackColor = false;
+            this.btnTeacherLogin.Click += new System.EventHandler(this.btnTeacherLogin_Click);
             // 
             // lblTitle
             // 

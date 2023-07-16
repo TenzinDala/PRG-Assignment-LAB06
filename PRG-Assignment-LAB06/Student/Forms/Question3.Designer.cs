@@ -1,6 +1,6 @@
 ﻿namespace PRG_Assignment_LAB06.Student
 {
-    partial class StudentLogin
+    partial class Question3
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "StudentLogin";
+            this.Text = "Question3";
         }
 
         #endregion

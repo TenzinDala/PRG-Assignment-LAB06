@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PRG_Assignment_LAB06.Student
 {
-    public partial class StudentLogin : Form
+    public partial class Question3 : Form
     {
-        public StudentLogin()
+        public Question3()
         {
             InitializeComponent();
         }

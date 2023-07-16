@@ -54,12 +54,31 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student\StudentLogin.cs">
+    <Compile Include="Student\Forms\Question1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Student\StudentLogin.Designer.cs">
+    <Compile Include="Student\Forms\Question1.Designer.cs">
+      <DependentUpon>Question1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Forms\Question2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Forms\Question2.Designer.cs">
+      <DependentUpon>Question2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Forms\Question3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Forms\Question3.Designer.cs">
+      <DependentUpon>Question3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Forms\StudentLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Forms\StudentLogin.Designer.cs">
       <DependentUpon>StudentLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student\Student.cs" />
     <Compile Include="Teacher\TeacherLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +97,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Student\Forms\Question1.resx">
+      <DependentUpon>Question1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\Forms\StudentLogin.resx">
+      <DependentUpon>StudentLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\TeacherLogin.resx">
+      <DependentUpon>TeacherLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
