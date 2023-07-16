@@ -26,6 +26,7 @@ namespace PRG_Assignment_LAB06.Student
             if(radio1Question1.Checked == true)
             {
                 Student.Score += 1;
+                Student.correctAnswers.Add("Q1");
             }
             groupBoxQ1.Enabled = false;
             groupBoxQ1.BackColor = Color.Gray;
