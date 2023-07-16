@@ -121,7 +121,7 @@
   <data name="picboxQ1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQgAAABUCAYAAAB+zanHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAFpBJREFUeF7tnflTVFmWx/tfmKqIiqmIKZB9UxAEZDEVQZA1FUQoF1xKARdQAQUU
+        wQAADsEBuJFr7QAAFpBJREFUeF7tnflTVFmWx/tfmKqIiqmIKZB9UxAEZDEVQZA1FUQoF1xKARdQAQUU
         UTBBRVBkUQRZRJSlABcKXFCUEkwBFQRNtsyeX3omYmKmuqMnarqrxq6a79yXGy8zXwJKAg+9P3wiyHPu
         8hK43zzn3Pdu/sHIyAgUCoXCBRUICoWiFx2BMDMzQ0JCgoaNQqF8nlCBoFAoeqECQaFQ9MJZg7C2ttax
         USiUzw/+FikXOcJi+QqYcPkoFMqcwFOBsILtvk5sLB+C/651HP7JMbZZDSs3H5iacvv5jsXaSKRcy8UN
@@ -220,4 +220,7 @@
         CxUICoWiF84ahJMT91etUSiUzwtapKRQKHowwv8DE/sjyJt2raoAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="TimerQ1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

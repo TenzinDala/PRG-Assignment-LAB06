@@ -10,6 +10,7 @@ namespace PRG_Assignment_LAB06.Student
     {
         public string userName { get; set; }
         public string studentID { get; set; }
+        public static int Score = 0;
         public static Dictionary<string, Student> userInfo;
 
         public Student(string USERNAME, string STUDENTID) 
