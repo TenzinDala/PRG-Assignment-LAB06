@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +86,12 @@
       <DependentUpon>StudentLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Student\Student.cs" />
+    <Compile Include="Teacher\StudentAverage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\StudentAverage.Designer.cs">
+      <DependentUpon>StudentAverage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Teacher\TeacherLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Student\Forms\StudentLogin.resx">
       <DependentUpon>StudentLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\StudentAverage.resx">
+      <DependentUpon>StudentAverage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher\TeacherLogin.resx">
       <DependentUpon>TeacherLogin.cs</DependentUpon>

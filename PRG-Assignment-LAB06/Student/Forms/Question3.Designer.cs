@@ -39,7 +39,7 @@
             this.radio1Question3 = new System.Windows.Forms.RadioButton();
             this.lblQuestion3 = new System.Windows.Forms.Label();
             this.lblTitleQ3 = new System.Windows.Forms.Label();
-            this.btnQ1Submit = new System.Windows.Forms.Button();
+            this.btnQ3Submit = new System.Windows.Forms.Button();
             this.btnQ3Finish = new System.Windows.Forms.Button();
             this.timerQ3 = new System.Windows.Forms.Timer(this.components);
             this.groupBoxQ3.SuspendLayout();
@@ -65,6 +65,7 @@
             // BarQ3
             // 
             this.BarQ3.Location = new System.Drawing.Point(378, 304);
+            this.BarQ3.Maximum = 10;
             this.BarQ3.Name = "BarQ3";
             this.BarQ3.Size = new System.Drawing.Size(262, 43);
             this.BarQ3.TabIndex = 6;
@@ -147,16 +148,16 @@
             this.lblTitleQ3.TabIndex = 9;
             this.lblTitleQ3.Text = "Question #3";
             // 
-            // btnQ1Submit
+            // btnQ3Submit
             // 
-            this.btnQ1Submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQ1Submit.Location = new System.Drawing.Point(77, 454);
-            this.btnQ1Submit.Name = "btnQ1Submit";
-            this.btnQ1Submit.Size = new System.Drawing.Size(118, 43);
-            this.btnQ1Submit.TabIndex = 11;
-            this.btnQ1Submit.Text = "Submit";
-            this.btnQ1Submit.UseVisualStyleBackColor = true;
-            this.btnQ1Submit.Click += new System.EventHandler(this.btnQ1Submit_Click);
+            this.btnQ3Submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQ3Submit.Location = new System.Drawing.Point(77, 454);
+            this.btnQ3Submit.Name = "btnQ3Submit";
+            this.btnQ3Submit.Size = new System.Drawing.Size(118, 43);
+            this.btnQ3Submit.TabIndex = 11;
+            this.btnQ3Submit.Text = "Submit";
+            this.btnQ3Submit.UseVisualStyleBackColor = true;
+            this.btnQ3Submit.Click += new System.EventHandler(this.btnQ1Submit_Click);
             // 
             // btnQ3Finish
             // 
@@ -182,7 +183,7 @@
             this.ClientSize = new System.Drawing.Size(863, 518);
             this.Controls.Add(this.groupBoxQ3);
             this.Controls.Add(this.lblTitleQ3);
-            this.Controls.Add(this.btnQ1Submit);
+            this.Controls.Add(this.btnQ3Submit);
             this.Controls.Add(this.btnQ3Finish);
             this.Name = "Question3";
             this.Text = "Question3";
@@ -205,7 +206,7 @@
         private System.Windows.Forms.RadioButton radio1Question3;
         private System.Windows.Forms.Label lblQuestion3;
         private System.Windows.Forms.Label lblTitleQ3;
-        private System.Windows.Forms.Button btnQ1Submit;
+        private System.Windows.Forms.Button btnQ3Submit;
         private System.Windows.Forms.Button btnQ3Finish;
         private System.Windows.Forms.Timer timerQ3;
     }

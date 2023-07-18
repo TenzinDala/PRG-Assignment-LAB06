@@ -42,6 +42,16 @@ namespace PRG_Assignment_LAB06.Student
             if (timer == 0)
             { 
                 TimerQ1.Enabled = false;
+                btnQ1Submit.Enabled = false;
+                groupBoxQ1.Enabled = false;
+                groupBoxQ1.BackColor = Color.Gray;
+                BarQ1.Enabled = false;
+                submitCheck = true;
+                if (radio1Question1.Checked == true)
+                {
+                    Student.Score += 1;
+                    Student.correctAnswers.Add("Q1");
+                }
             }
             lblTimeQ1.Text = "Timer Left => " + timer.ToString();
         }
