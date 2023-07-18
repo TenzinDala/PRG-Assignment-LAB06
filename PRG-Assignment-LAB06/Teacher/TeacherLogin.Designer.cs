@@ -73,12 +73,15 @@
             // 
             // btnTeacherLogin
             // 
-            this.btnTeacherLogin.Location = new System.Drawing.Point(299, 332);
+            this.btnTeacherLogin.BackColor = System.Drawing.Color.LawnGreen;
+            this.btnTeacherLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTeacherLogin.Location = new System.Drawing.Point(313, 330);
             this.btnTeacherLogin.Name = "btnTeacherLogin";
             this.btnTeacherLogin.Size = new System.Drawing.Size(123, 41);
             this.btnTeacherLogin.TabIndex = 6;
-            this.btnTeacherLogin.Text = "button1";
-            this.btnTeacherLogin.UseVisualStyleBackColor = true;
+            this.btnTeacherLogin.Text = "SignIn";
+            this.btnTeacherLogin.UseVisualStyleBackColor = false;
+            this.btnTeacherLogin.Click += new System.EventHandler(this.btnTeacherLogin_Click);
             // 
             // TeacherLogin
             // 

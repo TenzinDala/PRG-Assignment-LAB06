@@ -76,6 +76,7 @@
             // BarQ1
             // 
             this.BarQ1.Location = new System.Drawing.Point(378, 304);
+            this.BarQ1.Maximum = 10;
             this.BarQ1.Name = "BarQ1";
             this.BarQ1.Size = new System.Drawing.Size(262, 43);
             this.BarQ1.TabIndex = 6;

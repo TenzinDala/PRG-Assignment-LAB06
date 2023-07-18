@@ -40,22 +40,22 @@
             this.lblStudent.AutoSize = true;
             this.lblStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblStudent.Location = new System.Drawing.Point(251, 143);
+            this.lblStudent.Location = new System.Drawing.Point(290, 140);
             this.lblStudent.Name = "lblStudent";
-            this.lblStudent.Size = new System.Drawing.Size(193, 33);
+            this.lblStudent.Size = new System.Drawing.Size(130, 33);
             this.lblStudent.TabIndex = 0;
-            this.lblStudent.Text = "Student Login";
+            this.lblStudent.Text = "Student :";
             // 
             // lblTeacher
             // 
             this.lblTeacher.AutoSize = true;
             this.lblTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeacher.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTeacher.Location = new System.Drawing.Point(251, 263);
+            this.lblTeacher.Location = new System.Drawing.Point(290, 271);
             this.lblTeacher.Name = "lblTeacher";
-            this.lblTeacher.Size = new System.Drawing.Size(201, 33);
+            this.lblTeacher.Size = new System.Drawing.Size(138, 33);
             this.lblTeacher.TabIndex = 1;
-            this.lblTeacher.Text = "Teacher Login";
+            this.lblTeacher.Text = "Teacher :";
             // 
             // btnStudentLogin
             // 
@@ -65,7 +65,7 @@
             this.btnStudentLogin.Name = "btnStudentLogin";
             this.btnStudentLogin.Size = new System.Drawing.Size(110, 48);
             this.btnStudentLogin.TabIndex = 2;
-            this.btnStudentLogin.Text = "Login";
+            this.btnStudentLogin.Text = "SignUp";
             this.btnStudentLogin.UseVisualStyleBackColor = false;
             this.btnStudentLogin.Click += new System.EventHandler(this.btnStudentLogin_Click);
             // 
@@ -77,7 +77,7 @@
             this.btnTeacherLogin.Name = "btnTeacherLogin";
             this.btnTeacherLogin.Size = new System.Drawing.Size(110, 51);
             this.btnTeacherLogin.TabIndex = 3;
-            this.btnTeacherLogin.Text = "Login";
+            this.btnTeacherLogin.Text = "SignUp";
             this.btnTeacherLogin.UseVisualStyleBackColor = false;
             this.btnTeacherLogin.Click += new System.EventHandler(this.btnTeacherLogin_Click);
             // 
@@ -89,9 +89,9 @@
             this.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblTitle.Location = new System.Drawing.Point(164, 35);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(358, 73);
+            this.lblTitle.Size = new System.Drawing.Size(401, 73);
             this.lblTitle.TabIndex = 4;
-            this.lblTitle.Text = "Login Page";
+            this.lblTitle.Text = "Signup Page";
             // 
             // mainForm
             // 

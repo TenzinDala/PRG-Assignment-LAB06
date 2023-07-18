@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace PRG_Assignment_LAB06.Student
 {
@@ -41,6 +42,16 @@ namespace PRG_Assignment_LAB06.Student
             if (timer == 0)
             {
                 timerQ2.Enabled = false;
+                btnQ2Submit.Enabled = false;
+                groupBoxQ2.Enabled = false;
+                groupBoxQ2.BackColor = Color.Gray;
+                BarQ2.Enabled = false;
+                submitCheck = true;
+                if (radio3Question2.Checked == true)
+                {
+                    Student.Score += 1;
+                    Student.correctAnswers.Add("Q2");
+                }
             }
             lblTimeQ2.Text = "Timer Left => " + timer.ToString();
         }
